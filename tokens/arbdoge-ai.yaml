@@ -1,0 +1,56 @@
+schema_version: 1
+token_id: arbdoge-ai
+symbol: AIDOGE
+name: ArbDoge AI
+status: listed
+verification: data_verified
+category: memecoin
+narratives:
+  - ai
+  - meme
+  - arbitrum
+  - doge
+launch_date: "2023-04-18"
+website: https://arbdoge.ai
+description: >
+  Arbitrum-native memecoin with an AI narrative. Tracked as a first-class
+  ecosystem in MemeCoin OS without any AIDOGE-specific core logic.
+
+chains:
+  - id: arbitrum
+    standard: erc20
+    is_primary: true
+    contracts:
+      token:
+        address: "0x09E18590E8f76b6Cf471b3cd75fE1A1a9D2B2c2b"
+        decimals: 6
+        explorer: https://arbiscan.io/token/0x09E18590E8f76b6Cf471b3cd75fE1A1a9D2B2c2b
+
+socials:
+  twitter: https://x.com/ArbDogeAI
+  telegram: https://t.me/AIDOGEARBI
+  github: null
+
+data_sources:
+  onchain: true
+  social: true
+  github: false
+  exchanges: true
+  news: true
+  market:
+    provider: coingecko
+    provider_id: arbdoge-ai
+
+features:
+  sentiment: true
+  whale_tracking: true
+  holder_analysis: true
+  growth_engine: true
+  ai_agent: true
+  governance: false
+  treasury: false
+
+supply:
+  circulating: 1.8698609809544144e17
+  total: 1.8698609809544144e17
+  max: 2.1e17

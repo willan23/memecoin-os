@@ -1,0 +1,64 @@
+schema_version: 1
+token_id: baby-doge
+symbol: BABYDOGE
+name: Baby Doge Coin
+status: listed
+verification: ecosystem_verified
+category: memecoin
+narratives:
+  - meme
+  - doge
+  - charity
+  - animal-adoption
+launch_date: "2021-06-01"
+website: https://babydoge.com
+description: >
+  Multi-chain memecoin with a large community, CEX reach, and animal-adoption
+  narrative. Primary tracking chain is BNB Smart Chain.
+
+chains:
+  - id: bsc
+    standard: bep20
+    is_primary: true
+    contracts:
+      token:
+        address: "0xc748673057861a797275CD8A068AbB95A902e8de"
+        decimals: 9
+        explorer: https://bscscan.com/token/0xc748673057861a797275CD8A068AbB95A902e8de
+  - id: ethereum
+    standard: erc20
+    is_primary: false
+    contracts:
+      token:
+        address: "0xAC57De9C1A09FeC648E93EB98875B212DB0d460B"
+        decimals: 9
+        explorer: https://etherscan.io/token/0xAC57De9C1A09FeC648E93EB98875B212DB0d460B
+
+socials:
+  twitter: https://x.com/BabyDogeCoin
+  telegram: https://t.me/babydogecoin
+  github: https://github.com/BabyDogeCommunity
+
+data_sources:
+  onchain: true
+  social: true
+  github: true
+  exchanges: true
+  news: true
+  market:
+    provider: coingecko
+    provider_id: baby-doge-coin
+
+features:
+  sentiment: true
+  whale_tracking: true
+  holder_analysis: true
+  growth_engine: true
+  ai_agent: true
+  governance: false
+  treasury: true
+
+supply:
+  circulating: 1.8358804594332454e17
+  total: 4.2e17
+  max: 4.2e17

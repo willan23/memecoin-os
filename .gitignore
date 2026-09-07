@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+target/
+.pnpm-store/
+.npm/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+credentials.json
+client_secret*.json
+**/client_secret*.json
+docs.zip
+*.zip
+
+# Private product prompts / briefs (keep local only — do not publish)
+MASTER PROMPT*.md
+*Prompt Mestre*
+*Prompt de Implementa*
+pron.md
+1.md
+2.md
+MEMECOIN OS*.md
+!README.md
+
+# Firebase
+.firebase/
+*.cache
+
+# Next.js
+apps/web/.next/
+apps/web/out/
+apps/web/.turbo/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Logs / coverage
+*.log
+coverage/
+dist/
+tmp/
+
+# Databases
+*.sqlite
+*.db
+data/local/

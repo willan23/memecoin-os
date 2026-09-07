@@ -1,0 +1,54 @@
+schema_version: 1
+token_id: pepe
+symbol: PEPE
+name: Pepe
+status: listed
+verification: data_verified
+category: memecoin
+narratives:
+  - meme
+  - ethereum
+launch_date: "2023-04-17"
+website: https://www.pepe.vip
+description: >
+  Ethereum memecoin tracked as a first-class ecosystem. No PEPE-specific
+  logic lives in crates/core — this file is the entire token definition.
+
+chains:
+  - id: ethereum
+    standard: erc20
+    is_primary: true
+    contracts:
+      token:
+        address: "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
+        decimals: 18
+        explorer: https://etherscan.io/token/0x6982508145454Ce325dDbE47a25d4ec3d2311933
+
+socials:
+  twitter: https://x.com/pepecoineth
+  telegram: null
+  github: null
+
+data_sources:
+  onchain: true
+  social: true
+  github: false
+  exchanges: true
+  news: false
+  market:
+    provider: coingecko
+    provider_id: pepe
+
+features:
+  sentiment: true
+  whale_tracking: true
+  holder_analysis: true
+  growth_engine: true
+  ai_agent: true
+  governance: false
+  treasury: false
+
+supply:
+  circulating: null
+  total: null
+  max: null

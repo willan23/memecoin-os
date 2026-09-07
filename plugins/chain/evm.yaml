@@ -1,0 +1,11 @@
+id: chain.evm
+version: 0.1.0
+capabilities:
+  - chain.read
+  - token.metadata
+permissions:
+  - network.rpc
+data_sources:
+  - rpc
+config:
+  family: evm

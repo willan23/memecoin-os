@@ -1,0 +1,55 @@
+schema_version: 1
+token_id: kishu-inu
+symbol: KISHU
+name: Kishu Inu
+status: listed
+verification: data_verified
+category: memecoin
+narratives:
+  - meme
+  - doge
+  - ethereum
+launch_date: "2021-04-17"
+website: https://kishu.com
+description: >
+  Ethereum memecoin from the 2021 dog-themed wave. Tracked for community,
+  liquidity, and longevity analysis against newer ecosystems.
+
+chains:
+  - id: ethereum
+    standard: erc20
+    is_primary: true
+    contracts:
+      token:
+        address: "0xA2b4C0Af19cC16a6CfAcCe81F192B024d625817d"
+        decimals: 9
+        explorer: https://etherscan.io/token/0xA2b4C0Af19cC16a6CfAcCe81F192B024d625817d
+
+socials:
+  twitter: https://x.com/inukishu
+  telegram: https://t.me/kishuinucommunity
+  github: null
+
+data_sources:
+  onchain: true
+  social: true
+  github: false
+  exchanges: true
+  news: true
+  market:
+    provider: coingecko
+    provider_id: kishu-inu
+
+features:
+  sentiment: true
+  whale_tracking: true
+  holder_analysis: true
+  growth_engine: true
+  ai_agent: true
+  governance: false
+  treasury: false
+
+supply:
+  circulating: 9.646214638863418e16
+  total: 9.646214638863418e16
+  max: 1.0e17

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #05060a;
+  color: #e8eef7;
+}
+
+body {
+  background-image:
+    linear-gradient(rgba(62, 229, 138, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(77, 166, 255, 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+  min-height: 100%;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1c2333 transparent;
+}
+
+::selection {
+  background: rgba(62, 229, 138, 0.25);
+}
+
+.panel {
+  @apply rounded-xl border border-line bg-panel/90;
+}
+
+.kicker {
+  @apply font-mono text-[11px] uppercase tracking-[0.22em] text-mute;
+}

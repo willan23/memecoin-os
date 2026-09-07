@@ -1,0 +1,26 @@
+id: ecosystem-health
+version: 1.0.0
+skip_when_missing: true
+renormalize: true
+weights:
+  market: 0.15
+  liquidity: 0.12
+  onchain: 0.12
+  community: 0.12
+  development: 0.10
+  utility: 0.08
+  adoption: 0.08
+  governance: 0.05
+  treasury: 0.05
+  risk: 0.13
+depends_on:
+  market: [market]
+  liquidity: [liquidity]
+  onchain: [onchain]
+  community: [social]
+  development: [development]
+  utility: [development]
+  adoption: [onchain]
+  governance: []
+  treasury: []
+  risk: [market]

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "memecoin-os": {
+      "command": "npx",
+      "args": ["-y", "@gnegro/memecoin-os-mcp"],
+      "env": {
+        "MEMECOIN_OS_API": "https://memecoin-os-api-763598651987.europe-west1.run.app"
+      }
+    }
+  }
+}

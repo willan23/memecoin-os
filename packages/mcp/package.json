@@ -1,0 +1,46 @@
+{
+  "name": "@gnegro/memecoin-os-mcp",
+  "version": "0.1.0",
+  "description": "Read-only MemeCoin OS Exchange Intelligence MCP (stdio). Forwards JSON-RPC to the live API — not price tips. EXECUTE stays off.",
+  "type": "module",
+  "bin": {
+    "memecoin-os-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "memecoin",
+    "crypto",
+    "mcp",
+    "exchange",
+    "intelligence",
+    "digital-twin",
+    "cursor"
+  ],
+  "author": {
+    "name": "willan23",
+    "url": "https://github.com/willan23"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://memecoin-os.web.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willan23/memecoin-os.git",
+    "directory": "packages/mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/willan23/memecoin-os/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

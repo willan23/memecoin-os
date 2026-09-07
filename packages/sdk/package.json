@@ -1,0 +1,55 @@
+{
+  "name": "@gnegro/memecoin-os-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for the MemeCoin OS REST API — ecosystem intelligence, Twin, Exchange, research. Not a price oracle.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "memecoin",
+    "crypto",
+    "sdk",
+    "digital-twin",
+    "exchange",
+    "intelligence"
+  ],
+  "author": {
+    "name": "willan23",
+    "url": "https://github.com/willan23"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://memecoin-os.web.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willan23/memecoin-os.git",
+    "directory": "packages/sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/willan23/memecoin-os/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

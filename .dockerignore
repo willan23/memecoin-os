@@ -1,0 +1,13 @@
+.git
+.firebase
+apps/web/node_modules
+apps/web/.next
+apps/web/out
+target
+data
+backups
+**/.env
+**/.env.local
+**/node_modules
+*.md
+docs
